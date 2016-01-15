@@ -1,3 +1,5 @@
+/* Styles adapted from "Example Submission" and lesson notes */
+
 body {
 	padding: 20px 10px;
 	font-family: Helvetica;
@@ -21,40 +23,28 @@ h2 {
 	margin: 10px;
 }
 
-p {
-	margin: 10px 0;
-}
-
-ul {
-	list-style-type: none; /* this removes the bullets that show up by default in unordered lists */
-}
-
-li {
-	font-size: 20px;
-	line-height: 44px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
-}
-
 .boxxy {
-	background-color: #294860;
+	background-color: #333333;
 	border-radius: 20px;
 	color: white;
 	padding: 10px;
 	margin: 40px auto;
+	text-align: center;
 }
 
 .boxxy-title {
-	background-color: #DFEAF1;
+	background-color: #CCCCCC;
 	color: black;
 	padding: 4px;
 	border-radius: 4px;	
 	margin-top: 40px;
 	margin-bottom: 10px;
-	text-align: center;
-	max-width: 512px;
+	margin-left:25%;
+	width: 50%;
 }
 
 .boxxy-description {
-	background-color: #DFEAF1;
+	background-color: #FFFFFF;
 	color: black;
 	padding: 10px;
 	font-weight: lighter;
