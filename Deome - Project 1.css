@@ -1,0 +1,64 @@
+body {
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 1024px;
+	margin: 0 auto;
+	font-size: 1.4em;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+element.style {
+	display: flex;
+}
+
+h2 {
+	margin: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none; /* this removes the bullets that show up by default in unordered lists */
+}
+
+li {
+	font-size: 20px;
+	line-height: 44px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
+}
+
+.boxxy {
+	background-color: #294860;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 40px auto;
+}
+
+.boxxy-title {
+	background-color: #DFEAF1;
+	color: black;
+	padding: 4px;
+	border-radius: 4px;	
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	max-width: 512px;
+}
+
+.boxxy-description {
+	background-color: #DFEAF1;
+	color: black;
+	padding: 10px;
+	font-weight: lighter;
+	margin: 10px;
+	border-radius: 4px;
+	text-align: left;
+}
