@@ -15,10 +15,6 @@ body {
 	box-sizing: border-box;
 }
 
-element.style {
-	display: flex;
-}
-
 h2 {
 	margin: 10px;
 }
